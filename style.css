@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+ 
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+/*----------HEADER Y NAV BAR---------------------*/
+
+header a i{
+    font-size: 2em;
+    padding: 0.5em;
+}
+
+header{
+    display: flex;
+    background-color: rgb(216, 188, 243);
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav ul{
+    display: flex;
+    gap: 2em;
+}
+
+/*-----------------------MAIN E IMAGEN PERSONAL---------------------*/
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:large;
+    padding: 2em;
+    margin: 10px;
+    gap: 25px;
+}
+
+.acerca-de p{
+    background-color: rgb(224, 205, 242);
+    border-radius: 5px;
+    padding: 5px;
+    width: 400px;
+}
+
+.acerca-de h2{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    display: inline-block;
+    color:  rgb(190, 130, 246);
+    border-radius: 5px;
+    width: 160px;
+}
+
+.imagen-personal{
+    width: 250px;
+    height: auto;
+    border-radius: 3px;
+}
+.Imagen-carrusel{
+    height: 300px;
+}
+
+.carousel-slide {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-3{
+    margin: 10px;
+    display: flex;
+    justify-content:center;
+}
+
+
+#container-habilidades{
+    display: flex;
+    align-items: baseline;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 60px;
+    height: min-content;
+    justify-content: center;
+    max-width: 1000px;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+
+
+.habilidad {
+    
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1 0 0px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 30px;
+    height: min-content;
+    justify-content: center;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: 1px;
+}
+
+
+.imagen-habilidades{
+    
+    border-radius: 10px;
+    flex: none;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    transform: perspective(1200px);
+    width: 100%;
+
+}
+.texto-habilidades h2{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:  rgb(190, 130, 246);
+}
+
+
+/*-------------------FOOTER Y REDES SOCIALES---------------------*/
+
+#footer{
+    background-color: rgb(216, 188, 243);
+    padding: 10px;
+}
+
+.mensaje-flotante{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 2em;
+    color:black;
+
+}
